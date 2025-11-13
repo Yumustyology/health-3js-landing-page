@@ -1,3 +1,7 @@
+"use client";
+
+import dynamic from "next/dynamic";
+
 const CapsuleThing = dynamic(() => import("./components/Capsule"), {
   ssr: false,
 });
